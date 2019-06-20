@@ -20,21 +20,6 @@ export class GameState {
 		return -1;
 	}
 
-	private searchForWin(player: number): boolean {
-		let count = 0;
-		let cursor = [0, 0];
-		const target = 4;
-		while (count < target) {
-			console.log("COUNT " + count + " Cursor ");
-			console.log(cursor);
-			// Check every cell around the cursor
-
-
-			count++;
-
-		}
-		return false;
-	}
 
 	public dropChip(column: number, player: number) {
 		const emptySlot = this.findEmptySlot(this.boardMatrix[column]);
@@ -58,6 +43,23 @@ export class GameState {
 			}
 		});
 		return slot;
+	}
+
+
+	private searchForWin(player: number): boolean {
+		let count = 0;
+		let cursor = [0, 0];
+		const target = 4;
+		while (count < target) {
+			console.log("COUNT " + count + " Cursor ");
+			console.log(cursor);
+			// Check every cell around the cursor
+
+
+			count++;
+
+		}
+		return false;
 	}
 
 

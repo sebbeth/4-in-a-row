@@ -5,18 +5,12 @@ interface ColumnButtonProps {
 	clicked(id: number): void;
 }
 
-export class ColumnButton extends React.Component<ColumnButtonProps> {
-
-	constructor(props: ColumnButtonProps) {
-		super(props);
-	}
-
+export default class ColumnButton extends React.Component<ColumnButtonProps> {
 	private click() {
 		this.props.clicked(this.props.id);
 	}
 
 	render() {
-		const { id } = this.props;
 		return (<button onClick={(e) => this.click()}>Go</button>);
 	}
 }

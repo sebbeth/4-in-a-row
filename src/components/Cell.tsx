@@ -1,30 +1,27 @@
 import React from 'react';
 import './Cell.css';
 
-interface CellState {
+export interface CellState {
 }
 
-interface CellProps {
+export interface CellProps {
 	row: number;
 	column: number;
 	player: number;
+	colours: string[];
 }
 
-export class Cell extends React.Component<CellProps, CellState> {
-
+export default class Cell extends React.Component<CellProps, CellState> {
 	constructor(props: CellProps, state: CellState) {
-		super(props, state);
+		super(props);
 		this.state = {
 		}
-		// console.log(this.props.row + ":" + this.props.column);
-
 	}
 
-	render() {
-		console.log("***" + this.props.player);
-
+	public render() {
+		const { player, colours } = this.props;
 		let cellClass = 'empty';
-		switch (this.props.player) {
+		switch (player) {
 			case 1:
 				cellClass = 'p1';
 				break;
@@ -35,6 +32,13 @@ export class Cell extends React.Component<CellProps, CellState> {
 				cellClass = 'p3';
 				break;
 		}
-		return (<td className={cellClass}></td>);
+		return (
+			<td
+				className={cellClass}
+				style={{
+					backgroundColor: colours[player]
+				}}
+			/>
+		);
 	}
 }
