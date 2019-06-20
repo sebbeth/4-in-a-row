@@ -1,17 +1,12 @@
-.board {
-    background-color: black;
-    color: white;
-}
+.board {}
 
 table {
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-th, td {
+th,
+td {
     padding: 15px;
     text-align: center;
-}
-td {
-    border: 1px solid white;
 }

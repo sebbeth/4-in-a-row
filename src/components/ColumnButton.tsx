@@ -1,14 +1,22 @@
 import React from 'react';
 
+interface ColumnButtonProps {
+	id: number;
+	clicked(id: number): void;
+}
 
-export class ColumnButton extends React.Component {
+export class ColumnButton extends React.Component<ColumnButtonProps> {
 
+	constructor(props: ColumnButtonProps) {
+		super(props);
+	}
 
-    click() {
-        console.log("Click");
-    }
+	private click() {
+		this.props.clicked(this.props.id);
+	}
 
-    render() {
-      return (<button onClick={this.click}>Go</button>);
-    }
+	render() {
+		const { id } = this.props;
+		return (<button onClick={(e) => this.click()}>Go</button>);
+	}
 }

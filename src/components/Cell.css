@@ -1,0 +1,20 @@
+td {
+    border: 1px solid white;
+    padding-top: 40px;
+}
+
+.p1 {
+    background-color: red;
+}
+
+.p2 {
+    background-color: blue;
+}
+
+.p3 {
+    background-color: green;
+}
+
+.empty {
+    background-color: black;
+}
