@@ -3,6 +3,7 @@ import { GameState } from "../models/GameState";
 import "./Board.css";
 import Cell from "./Cell";
 import ColumnButton from "./ColumnButton";
+import Colours from "./Colours";
 
 export interface IBoardState {
 	gameState: GameState;
@@ -11,7 +12,7 @@ export interface IBoardState {
 }
 
 export interface IBoardProps {
-
+	test?:boolean;
 }
 
 export class Board extends React.Component<IBoardProps, IBoardState> {
@@ -34,14 +35,15 @@ export class Board extends React.Component<IBoardProps, IBoardState> {
 		return (
 			gameState.gameover
 				?
-				<div className={"board"}>
+				<div>
 					<h1>{player === 1 ? "Player One Won!" : "Player Two Won!"} </h1>
 					<h2><a href={"/"}>Play again</a></h2>
 				</div>
 				:
-				<div className={"board"}>
+				<div>
 					<h1>4 In a Row</h1>
 					<h2>{player === 1 ? "Player One" : "Player Two"}</h2>
+		
 					<table className={"board-table"}>
 						<tbody>
 							{
@@ -75,26 +77,30 @@ export class Board extends React.Component<IBoardProps, IBoardState> {
 							</tr>
 						</tbody>
 					</table>
+					<div className={"footer"}>
+						<span className={"footer-text"} style={{backgroundColor: colours[1]}}>
+							Player 1 Color: {colours[1]}
+						</span>
+						<span className={"footer-text"} style={{backgroundColor: colours[2]}}>
+							Player 2 Color: {colours[2]}
+						</span>					
+					</div>
 				</div>
 		);
 	}
 
 	private async getColours() {
-		let colours = [];
-		for (let index = 0; index < 3; index++) {
-			let response = await fetch('https://api.noopschallenge.com/hexbot');
-			let json = await response.json();
-			colours.push(json.colors[0].value);
-		}
+		const colours = await new Colours().getColours();
 		this.setState({ colours: colours }, () => {
 			console.log(this.state.colours);
 		})
-
 	}
+
 	private getPlayerForCell(row: number, column: number): number {
 		let x = this.state.gameState.boardMatrix[row][column];
 		return x;
 	}
+	
 	private buttonClicked(id: number): void {
 		let gameState = this.state.gameState;
 		gameState.dropChip(id, this.state.player);

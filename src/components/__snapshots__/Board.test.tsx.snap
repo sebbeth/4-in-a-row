@@ -1,0 +1,644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div>
+  <h1>
+    4 In a Row
+  </h1>
+  <h2>
+    Player One
+  </h2>
+  <table
+    className="board-table"
+  >
+    <tbody>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr
+        className="row"
+      >
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+        <td
+          className="empty"
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        />
+      </tr>
+      <tr>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+        <th>
+          <button
+            onClick={[Function]}
+          >
+            Go
+          </button>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="footer"
+  >
+    <span
+      className="footer-text"
+      style={
+        Object {
+          "backgroundColor": undefined,
+        }
+      }
+    >
+      Player 1 Color: 
+    </span>
+    <span
+      className="footer-text"
+      style={
+        Object {
+          "backgroundColor": undefined,
+        }
+      }
+    >
+      Player 2 Color: 
+    </span>
+  </div>
+</div>
+`;
