@@ -90,7 +90,8 @@ export class Board extends React.Component<IBoardProps, IBoardState> {
 	}
 
 	private async getColours() {
-		const colours = await new Colours().getColours();
+		const coloursData = new Colours()
+		const colours = await coloursData.getColours();
 		this.setState({ colours: colours }, () => {
 			console.log(this.state.colours);
 		})

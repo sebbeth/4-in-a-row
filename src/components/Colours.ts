@@ -1,7 +1,4 @@
-
-
 export default class Colours {
-
 
     public async getColours() {
 		let colours: any[] = [];
